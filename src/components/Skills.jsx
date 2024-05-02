@@ -9,6 +9,8 @@ import bootstrap from "../assets/bootstraplogo.png";
 import nodejs from "../assets/nodejs-logo.png";
 import expressjs from "../assets/express-js.logo.png";
 import git from "../assets/git-logo.png";
+import dart from "../assets/dart-logo.png";
+import flutter from "../assets/flutter-logo.png";
 
 const Skills = () => {
   const techs = [
@@ -44,7 +46,6 @@ const Skills = () => {
       id: 5,
       src: tailwind,
       title: "Tailwind",
-      // proficiency: "Basic",
       style: "shadow-sky-400",
     },
 
@@ -52,21 +53,30 @@ const Skills = () => {
       id: 6,
       src: nodejs,
       title: "Node Js",
-      // proficiency: "Basic",
       style: "shadow-green-500",
     },
     {
       id: 7,
       src: expressjs,
       title: "Express Js",
-      // proficiency: "Basic",
       style: "shadow-white",
     },
     {
       id: 8,
+      src: dart,
+      title: "Dart",
+      style: "shadow-sky-400",
+    },
+    {
+      id: 9,
+      src: flutter,
+      title: "Flutter",
+      style: "shadow-sky-400",
+    },
+    {
+      id: 10,
       src: git,
       title: "Git",
-      // proficiency: "Basic",
       style: "shadow-orange-500",
     },
   ];
@@ -85,7 +95,7 @@ const Skills = () => {
             These are the technical and soft skills we have
           </p>
         </div>
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0">
+        <div className="grid grid-cols-3 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
           {techs.map(({ id, src, title, proficiency, style }) => (
             <div
               key={id}
