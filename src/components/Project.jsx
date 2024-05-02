@@ -1,7 +1,7 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { FaExternalLinkAlt } from "react-icons/fa";
-import movieapp from "../assets/movie app.png";
+import movie from "../assets/movie.png";
 import freshmarket from "../assets/freshmarket.png";
 
 import abochi from "../assets/abochi-screen.png";
@@ -78,7 +78,7 @@ const Project = () => {
             </div>
             <div className="mb-4 lg:mb-0 p-4 lg:p-0 w-full md:w-4/7  rounded block border-4 border-gray-500">
               <img
-                src={movieapp}
+                src={movie}
                 className="rounded-md object-cover w-full h-64"
               />
 
