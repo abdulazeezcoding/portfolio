@@ -11,7 +11,7 @@ const Experience = () => {
             </p>
         <div className="grid grid-cols-1  md:grid-cols-2 gap-5 mx-auto">
           <div className="bg-black shadow-md shadow-sky-500 duration-200 hover:scale-500  rounded-lg p-3 m-4">
-            <p className="font-bold text-sm text-white">Feb 2024 - Present</p>
+            <p className="font-bold text-sm text-white">Feb 2024 - April 2024</p>
             <p className="font-bold text-2xl text-white">
               Web Development
             </p>
